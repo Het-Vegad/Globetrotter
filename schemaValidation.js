@@ -11,6 +11,7 @@ module.exports.listingSchema = Joi.object({
             url: Joi.string().allow(''),
             filename: Joi.string().allow('')
         }),
+        category: Joi.string().required(),
         //Joi.string().allow(" ",null),
 
     }).required()
