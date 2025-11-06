@@ -23,7 +23,7 @@ Before you begin, make sure you have the following installed on your system:
    - Add the following line to the `.env` file:
 
      ```
-     ATLASDB_URL=your_atlasdb_url
+     ATLASDB_URL=mongodb://127.0.0.1:27017/wanderlust
      ```
 
 3. Set up Cloudinary:
