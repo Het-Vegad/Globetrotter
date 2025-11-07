@@ -1,4 +1,3 @@
-
 (() => {
   "use strict";
   const forms = document.querySelectorAll(".needs-validation");
@@ -10,7 +9,6 @@
           event.preventDefault();
           event.stopPropagation();
         }
-
         form.classList.add("was-validated");
       },
       false
